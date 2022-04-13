@@ -1,0 +1,251 @@
+html,
+.title {
+  text-align: center;
+
+}
+
+body {
+    height: 100%;
+    
+}
+#cuadros{
+    background: rgb(47, 53, 52) url('../img/fondo3.png') center center no-repeat;
+}
+#cuadros2{
+    background: url('../img/fondo3.png') center center no-repeat;
+}
+#cuadros3{
+    background: url('../img/fondo.png') center center no-repeat;
+}
+
+img {
+    max-width: 100%;
+}
+#inicio {
+    background: rgb(4, 255, 221) url('/img/login.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#inicio-texto {
+    width: 100%;
+    
+}
+
+
+
+#cover-texto .form-inline{
+    width: 100%;
+}
+
+.contenido-seccion {
+    padding: 2rem 0;
+}
+
+
+#nosotros {
+    background: url('/img/.jpeg') center center no-repeat;
+    background-size: 1300px;
+}
+
+.texto-acerca-de {
+    background: rgba(0,0,0,0.8);
+    
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer-main {
+    background: rgb(0, 25, 25);
+    color: white;
+    font-size: .8rem;
+    padding: 1.3rem 0;
+}
+
+.form
+{
+  width:340px;
+  height:440px;
+  background:#e6e6e6;
+  border-radius:8px;
+  box-shadow:0 0 40px -10px #000
+  ;margin:calc(50vh - 220px) auto;
+  padding:20px 30px;
+  max-width:calc(100vw - 40px);
+  box-sizing:border-box;
+  font-family:'Montserrat',sans-serif;
+  position:relative
+ }
+
+ .label{
+
+   color: rgb(57, 209, 115);
+
+
+}
+
+* {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgb(187, 45, 45);
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box; }
+
+  .title {
+	text-align: center;
+	color: rgb(170, 32, 32); }
+  
+  .calendar {
+	background: #4ECDC4;
+	width: 80%;
+	max-width: 600px;
+	margin: 1em auto;
+	padding: .5em 0; }
+	.calendar__info {
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-align: center;
+	  -ms-flex-align: center;
+	  align-items: center;
+	  padding: 0 2em;
+	  font-size: 1.2em;
+	  text-transform: uppercase; }
+	.calendar__prev, .calendar__next {
+	  color: #C7F464;
+	  cursor: pointer;
+	  font-size: 1.3em; }
+	.calendar__prev {
+	  margin-right: auto; }
+	.calendar__next {
+	  margin-left: auto; }
+	.calendar__week, .calendar__dates {
+	  display: grid;
+	  grid-template-columns: repeat(7, 1fr);
+	  grid-gap: 10px; }
+	.calendar__month, .calendar__year {
+	  padding: .5em 1em; }
+	.calendar__item {
+	  text-align: center;
+	  line-height: 2; }
+	.calendar__today {
+	  background: lightcoral;
+	  color: white;
+	  width: 50%;
+	  border-radius: 50%;
+	  margin: auto; }
+	.calendar__last-days {
+	  opacity: .3; }
+
+
+  
